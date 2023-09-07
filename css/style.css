@@ -1,0 +1,63 @@
+/* instal fonts*/
+@font-face {
+    font-family:abrilfat ;
+    src: url('../font/IndieFlower-Regular.ttf');
+}
+
+body{
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header{
+    width:100%;
+    overflow: hidden;
+    background: linear-gradient(rgb(32, 9, 88), rgb(32, 9, 88));
+    height: 350px;
+}
+
+.header .text {
+    font-size: 30px;
+    float: left;
+    font-family:Rubik;
+    color: rgb(255, 255, 255);
+}
+
+.header .tema {
+    float: right;
+    margin-top: 40px;
+}
+
+.header .tema li {
+    float: right;  
+    margin-left: 20px;
+    font-size: 20px;
+    display: block;
+}
+
+.header .tema li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family:Rubik;
+}
+.header .tema li a:hover{
+    color: rgb(0, 255, 234);
+    text-decoration: underline;
+}
+
+.icon{
+    background-image: url('../foto/1.jpg');
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.parent{
+    margin-top: 100px;
+}
